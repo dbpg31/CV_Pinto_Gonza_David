@@ -4,10 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
     border: none;
     outline: none;
     scroll-behavior:smooth;
-    font-family:'poppins',sans-serif;
+    font-family:'poppins', sans-serif;
 
 }
 
@@ -33,14 +34,28 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100;
+    width: 100%;
     padding: 2rem 7%;
     background: yellowgreen;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--main-color);
+    font-weight: 600;
+    cursor: default;
+    margin-right: auto;
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    color: var(--white-color);
+    font-weight: 500;
+
 
 
 
 }
-
-
-
-
