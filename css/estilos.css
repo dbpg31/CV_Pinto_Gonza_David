@@ -36,7 +36,7 @@ body {
     left: 0;
     width: 100%;
     padding: 2rem 7%;
-    background: yellowgreen;
+    background: transparent;
     display: flex;
     align-items: center;
     z-index: 100;
@@ -58,7 +58,7 @@ body {
     margin-right: 3.5rem;
 }
 
-.navbar a.active ::before {
+.navbar a.active::before {
     content: '';
     position: absolute;
     left: 0;
@@ -129,7 +129,7 @@ section {
     padding: 1.2rem 2.8rem;
     background: var(--main-color);
     border-radius: .6rem;
-    box-shadow: 0 .2rem 5rem var(--shadow-color);
+    box-shadow: 0 .2rem .5rem var(--shadow-color);
     font-size: 1.6rem;
     color: var(--white-color);
     letter-spacing: .1rem;
@@ -151,11 +151,49 @@ section {
     transform: translateY(-50%);
     width: 768px;
     height: 768px;
-    background: red;
     overflow: hidden;
     pointer-events: none;
+}
+
+.home .profession-container .profession-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 768px;
+    height: 768px;
+    background: yellowgreen;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .profession-box .profession {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--main-color);
+    transform: rotate(calc(360deg / 4 * var(--i)));
+    transform-origin: 384px;
+    
+
+
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
