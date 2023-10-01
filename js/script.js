@@ -1,2 +1,2 @@
 
-Let header = documen.querySelector('.header');
+let header = documen.querySelector('.header');
