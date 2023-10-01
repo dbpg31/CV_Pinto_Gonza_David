@@ -6,4 +6,3 @@ header.classList.toggle('sticky',window.scrollY >100);
 };
 
 
-

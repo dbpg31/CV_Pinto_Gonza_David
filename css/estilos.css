@@ -287,9 +287,20 @@ span {
     margin: 2rem 0 3rem;
 }
 
+.services .services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 2rem;
+}
 
-
-
+.services-container .services-box {
+    flex: 1 1 30rem;
+    background: var(--bg-color);
+    border-radius: 2rem;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
 
 
 
